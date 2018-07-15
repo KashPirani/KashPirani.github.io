@@ -1,0 +1,153 @@
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 23px
+
+  
+}
+.icon {
+    vertical-align: middle;
+    
+}
+.icon:hover {
+    opacity: 0.5;
+}
+
+.nav {
+    background-color: white;
+}
+.nav ul{
+    margin: 0;
+    padding: 0;
+}
+.nav li {
+    list-style: none;
+    margin-right: 15px;
+}
+.nav container {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+.nav li a {
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+}
+
+
+.opt a:hover {
+    color: black;
+}
+.opt a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.opt a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.left {
+    margin-top 0;
+    list-style-type: none;
+    text-align: center;
+    background-color: white;
+    float: left;
+}
+.right {
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    background-color: white;
+    float: right;
+    display: inline-block;
+}
+.jumbotron {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron h1 {
+    background-color: white;
+    text-align: left;
+    font-size: 100px;
+    margin-top: 0px;
+}
+
+.jumbotron p {
+    background-color: white;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.navbar-default {
+ 
+    background-color: white;
+    border-color: white;
+ 
+}
+.navbar-nav > li > a {
+   line-height: 64px;
+}
+.img {
+    max-width: 100%;
+}
+.navbar-collapse {
+        border-top: 0px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+
+@media (max-width: 1000px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
