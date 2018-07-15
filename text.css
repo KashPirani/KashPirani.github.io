@@ -1,0 +1,27 @@
+h1{
+    color: black;
+    text-align: left;
+    font-family: Glegoo;
+    font-size: 72px
+}
+
+p{
+    color: #889093;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 21px;
+}
+
+a{
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 21px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color:#black;
+    margin-right: 10px;
+}
+a:hover{
+    color: #2393bc;
+    text-decoration-color:#889093;
+}
