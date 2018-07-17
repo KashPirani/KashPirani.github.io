@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Glegoo");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
 h1{
     color: black;
     text-align: left;
     font-family: Glegoo;
-    font-size: 72px
+    font-size: 72px;
+    font-weight: 100px;
 }
 
 p{
@@ -10,6 +14,7 @@ p{
     text-align: left;
     font-family: Ubuntu;
     font-size: 21px;
+
 }
 
 a{
@@ -25,3 +30,41 @@ a:hover{
     color: #2393bc;
     text-decoration-color:#889093;
 }
+
+.weight1{
+    font-weight: 750;
+}
+
+
+.highlight1{
+    color: #2393bc;
+}
+
+.highlight2{
+    color: black;
+}
+
+.ptext{
+
+}
+
+.btn-outline-dark{
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 15px;
+    border-width:2px;
+    border-radius: 3px;
+    display:none;
+}
+.btn-outline-dark:hover, .btn-outline-dark:focus, .btn-outline-dark:active, .btn-outline-dark.active, .open>.dropdown-toggle.btn-outline-dark {
+    color: black;
+    background-color: white;
+    border-color: #2393bc;
+}
+.btn-outline-dark:not(:disabled):not(.disabled).active, .btn-outline-dark:not(:disabled):not(.disabled):active, .show>.btn-outline-dark.dropdown-toggle {
+    color: #2393bc;
+    background-color: white;
+    border-color: #2393bc;
+}
+
