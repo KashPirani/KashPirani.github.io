@@ -22,13 +22,11 @@ a{
     font-family: Ubuntu;
     font-size: 21px;
     color: black;
-    text-decoration: underline;
-    text-decoration-color:#black;
-    margin-right: 10px;
+    text-decoration: none;
+    margin-top: 100px;
 }
 a:hover{
     color: #2393bc;
-    text-decoration-color:#889093;
 }
 
 .weight1{
@@ -66,8 +64,4 @@ a:hover{
     color: #2393bc;
     background-color: white;
     border-color: #2393bc;
-}
-
-a{
-    text-decoration: none;
 }
