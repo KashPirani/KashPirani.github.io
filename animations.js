@@ -6,7 +6,7 @@ function buttonFader(){
     var firstElem = 1;
     var lastElem = 4;
     for (i = firstElem; i <= lastElem; i ++){
-        var selectorBoi1 = "div button:nth-of-type\(" + i + "\)";
+        var selectorBoi1 = "div a:nth-of-type\(" + i + "\)";
 
         console.log(selectorBoi1);
         

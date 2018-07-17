@@ -68,3 +68,6 @@ a:hover{
     border-color: #2393bc;
 }
 
+a{
+    text-decoration: none;
+}
