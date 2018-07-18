@@ -45,7 +45,9 @@ a:hover{
 .ptext{
 
 }
-
+.whitespace{
+    margin-bottom:20px;
+}
 .btn{
     display: block
 }
