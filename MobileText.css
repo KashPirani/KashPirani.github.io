@@ -46,6 +46,9 @@ a:hover{
 
 }
 
+.btn{
+    display: block
+}
 .btn-outline-dark{
     font-family: Ubuntu;
     font-size: 20px;
@@ -66,7 +69,4 @@ a:hover{
 }
 .btn:focus {
   outline: none;
-}
-.container{
-   margin-top: 150px;
 }
