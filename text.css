@@ -49,8 +49,8 @@ a:hover{
 .btn-outline-dark{
     font-family: Ubuntu;
     font-size: 20px;
-    font-weight: 300;
-    margin-right: 15px;
+    font-weight: 500;
+    margin-right: 20px;
     border-width:2px;
     border-radius: 3px;
     display:none;
@@ -64,4 +64,7 @@ a:hover{
     color: #2393bc;
     background-color: white;
     border-color: #2393bc;
+}
+.btn:focus {
+  outline: none;
 }
