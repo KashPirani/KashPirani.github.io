@@ -14,7 +14,6 @@ p{
     text-align: left;
     font-family: Ubuntu;
     font-size: 21px;
-
 }
 
 a{
@@ -27,6 +26,7 @@ a{
 }
 a:hover{
     color: #2393bc;
+    text-decoration: none;
 }
 
 .weight1{
@@ -40,6 +40,12 @@ a:hover{
 
 .highlight2{
     color: black;
+}
+
+.bigtext
+{
+    margin-top: 30px;
+    font-size: 26px;
 }
 
 .ptext{

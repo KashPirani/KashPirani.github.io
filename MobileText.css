@@ -27,6 +27,7 @@ a{
 }
 a:hover{
     color: #2393bc;
+    text-decoration: none;
 }
 
 .weight1{
@@ -40,6 +41,12 @@ a:hover{
 
 .highlight2{
     color: black;
+}
+
+.bigtext
+{
+    font-size: 26px;
+    margin-top: 15px;
 }
 
 .ptext{

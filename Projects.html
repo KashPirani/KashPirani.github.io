@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Glegoo">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="text.css">
-    <title>Kash's Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    
+    <script src="animations.js"></script>
+    
+    <link rel="stylesheet" media="screen and (min-width: 601px)" href="text.css" />
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="MobileText.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kash Pirani</title>
 </head>
 
 <body class = "container" style="margin-top: 150px">
     <div class="row">
-        <div class="col-lg-10 col-md-offset-2">
-            <h1>Under <span style="color: #2393bc"><b>Construction</b></span></h1>
-        </div> 
+        <div class="col-md-10 offset-md-2">
+            <h1>my<span style="color: #2393bc"><b> projects</b></span></h1>
+            <p class="weight1 highlight1 bigtext">alarm plusplus<p>
+            <p>an iot alarm clock powered by an Onion Omega2 that fetches the location-specific time and weather from wunderground.</p>
+            <p>displays current weather by flashing an array of multicoloured arrays in different patterns.</p>
+            <a class="btn btn-outline-dark" href="https://github.com/KashPirani/AlarmPlusPlus" target="blank">Learn more</a>
+            <p class="weight1 highlight1 bigtext">formula electric - telemetry lead</p>
+            <p>we are working on relaying diagnostic information from the car wirelessly to a base station off the track</p>
+            <p>to do this we have designed a hardware path to transmit can messages over radio, and software to store it and display it to a custom gui</p>
+            <a class="btn btn-outline-dark" href="https://github.com/KashPirani/AlarmPlusPlus" target="blank">Learn more</a>
+            <p class="weight1 highlight1 bigtext">uw nanorobotics group - sam electrical lead</p>
+            <p>our competition robot, sam, is a microscale magnetic particle controlled by 4 solenoids.</p>
+            <p>the solenoids are actuated by an arduino, which receives commands from in house software.</p>
+            <p>the movement of the robot has been automated using a small camera and opencv.</p>
+            <a class="btn btn-outline-dark" href="http://uwnrg.org/" target="blank">Learn more</a>
+            <p class="weight1 highlight1 bigtext">iot automated sprinkler</p>
+            <p>an automated sprinkler made using an adafruit feather huzzah and a soil moisture sensor</p>
+            <p>pulled forecasts and time from wunderground, and found the ideal time and duration to water plants</p>
+            <p class="whitespace">interfaced with either a solenoid valve or existing irrigation systems</p>
+        </div>
+            
     </div>
 </body>
 </html>
